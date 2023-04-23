@@ -28,10 +28,10 @@ const { items, handleSelect } = useDates(props, emit);
 <template>
   <ul :class="parentClasses">
     <li
-        v-for="(item, index) in items"
-        :key="index"
-        :class="getItemClasses(item)"
-        @click="handleSelect(item)"
+      v-for="(item, index) in items"
+      :key="index"
+      :class="getItemClasses(item)"
+      @click="handleSelect(item)"
     >
       {{ item.label }}
     </li>
