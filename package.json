@@ -2,7 +2,7 @@
   "name": "vue-date-pills",
   "description": "Lightweight complete date pills solution for filtering data by date range based on Vue 3 and DayJS",
   "version": "1.0.0-beta.0",
-  "private": true,
+  "private": false,
   "license": "MIT",
   "author": "Vadzim Veleshka <storaged@mail.ru>",
   "main": "dist/vue-date-pills.umd.js",
