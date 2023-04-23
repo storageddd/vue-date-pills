@@ -6,10 +6,9 @@
 [![Npm](https://img.shields.io/npm/v/vue-date-pills)](https://www.npmjs.com/package/vue-date-pills)
 ![Size](https://img.shields.io/bundlephobia/minzip/vue-date-pills?color=53ca2f)
 ![Downloads](https://img.shields.io/npm/dm/vue-date-pills)
-[![Open issues](https://img.shields.io/github/issues-raw/storageddd/vue-date-pills)](https://github.com/storageddd/vue-date-pills/issues)
 ![Release date](https://img.shields.io/github/release-date/storageddd/vue-date-pills)
 
-![Screenshot](https://github.com/storageddd/vue-date-pills/raw/master/public/screenshot.png "Screenshot")
+![Screenshot](https://github.com/storageddd/vue-date-pills/raw/master/screenshot.png "Screenshot")
 
 ## Description
 Some mobile interfaces includes choice month intervals for grab related data. Also it based on dates range.
@@ -68,3 +67,6 @@ app.component('VueDatePills', VueDatePills);
   }
 </script>
 ```
+
+## API
+Coming soon

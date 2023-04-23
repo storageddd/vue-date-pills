@@ -25,6 +25,7 @@ export default ({ mode }: any) => {
       },
       outDir: isProductionMode ? 'dist' : 'docs'
     },
+    publicDir: isProductionMode ? false : undefined,
     server: {
       open: true
     }
