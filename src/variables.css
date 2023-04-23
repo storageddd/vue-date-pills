@@ -1,0 +1,13 @@
+:root {
+  --date-pills-font-size: 14px;
+  --date-pills-font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+  --date-pills-color: #262626;
+  --date-pills-background-color: #ebebeb;
+  --date-pills-hover-background-color: #e5e5e5;
+  --date-pills-active-color: #ffffff;
+  --date-pills-active-background-color: #262626;
+  --date-pills-transition: all .3s cubic-bezier(.645, .045, .355, 1);
+  --date-pills-padding: 8px 16px;
+  --date-pills-gap: 8px;
+  --date-pills-border-radius: 16px;
+}

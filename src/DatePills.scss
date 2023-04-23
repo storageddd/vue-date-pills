@@ -1,0 +1,41 @@
+@import "./variables.css";
+
+.date-pills {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  grid-gap: var(--date-pills-gap);
+  overflow-x: auto;
+
+  &--wrap {
+    flex-wrap: wrap;
+    overflow: initial;
+  }
+
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+
+  &__item {
+    font-size: var(--date-pills-font-size);
+    font-family: var(--date-pills-font-family);
+    background-color: var(--date-pills-background-color);
+    border-radius: var(--date-pills-border-radius);
+    color: var(--date-pills-color);
+    padding: var(--date-pills-padding);
+    white-space: nowrap;
+    transition: var(--date-pills-transition);
+    cursor: pointer;
+
+    &--active {
+      color: var(--date-pills-active-color);
+      background-color: var(--date-pills-active-background-color);
+      pointer-events: none;
+    }
+
+    &:hover:not(&--active) {
+      background-color: var(--date-pills-hover-background-color);
+    }
+  }
+}

@@ -1,20 +1,48 @@
 {
-  "name": "pills-date-picker",
-  "version": "1.0.0",
+  "name": "vue-date-pills",
+  "description": "Lightweight complete date pills solution for filtering data by date range based on Vue 3 and DayJS",
+  "version": "1.0.0-beta.0",
   "private": true,
+  "license": "MIT",
+  "author": "Vadzim Veleshka <storaged@mail.ru>",
+  "main": "dist/vue-date-pills.umd.js",
+  "module": "dist/vue-date-pills.es.js",
+  "browser": "dist/vue-date-pills.umd.js",
+  "style": "./dist/style.css",
+  "files": [
+    "dist/*",
+    "src/**/*",
+    "README.md"
+  ],
+  "types": "src/types.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-date-pills.es.js",
+      "require": "./dist/vue-date-pills.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/storageddd/vue-date-pills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/storageddd/vue-date-pills/issues"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "run-p type-check build-only",
+    "build": "vite build --mode production",
     "preview": "vite preview",
     "test:unit": "vitest",
     "test:e2e": "start-server-and-test preview http://localhost:4173 'cypress run --e2e'",
-    "test:e2e:dev": "start-server-and-test 'vite dev --port 4173' http://localhost:4173 'cypress open --e2e'",
+    "test:e2e:dev": "start-server-and-test 'vite serve --port 4173' http://localhost:4173 'cypress open --e2e'",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "dayjs": "^1.11.7",
     "vue": "^3.2.47"
   },
   "devDependencies": {
@@ -33,6 +61,8 @@
     "jsdom": "^21.1.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.8.4",
+    "sass": "^1.58.3",
+    "sass-loader": "^13.2.0",
     "start-server-and-test": "^2.0.0",
     "typescript": "~4.8.4",
     "vite": "^4.1.4",
