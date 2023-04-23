@@ -20,6 +20,7 @@
   &__item {
     font-size: var(--date-pills-font-size);
     font-family: var(--date-pills-font-family);
+    font-weight: var(--date-pills-font-weight);
     background-color: var(--date-pills-background-color);
     border-radius: var(--date-pills-border-radius);
     color: var(--date-pills-color);
@@ -27,6 +28,7 @@
     white-space: nowrap;
     transition: var(--date-pills-transition);
     cursor: pointer;
+    user-select: none;
 
     &--active {
       color: var(--date-pills-active-color);

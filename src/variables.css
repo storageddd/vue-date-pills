@@ -1,6 +1,7 @@
 :root {
   --date-pills-font-size: 14px;
   --date-pills-font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+  --date-pills-font-weight: normal;
   --date-pills-color: #262626;
   --date-pills-background-color: #ebebeb;
   --date-pills-hover-background-color: #e5e5e5;
