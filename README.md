@@ -1,6 +1,6 @@
 # vue-date-pills
 
-### Lightweight complete date pills solution for filtering data by date range based on Vue 3 and DayJS
+### Lightweight complete date pills component for filtering data by date range based on Vue 3 and DayJS
 
 [![License](https://img.shields.io/npm/l/vue-date-pills)](https://github.com/storageddd/vue-date-pills/blob/main/LICENSE.md) 
 [![Npm](https://img.shields.io/npm/v/vue-date-pills)](https://www.npmjs.com/package/vue-date-pills)
@@ -9,16 +9,24 @@
 [![Open issues](https://img.shields.io/github/issues-raw/storageddd/vue-date-pills)](https://github.com/storageddd/vue-date-pills/issues)
 ![Release date](https://img.shields.io/github/release-date/storageddd/vue-date-pills)
 
+![Screenshot](https://github.com/storageddd/vue-date-pills/raw/master/public/screenshot.png "Screenshot")
+
 ## Description
-Date pills solution 
+Some mobile interfaces includes choice month intervals for grab related data. Also it based on some dates range.
+Vue data pills created for solve this issue and makes it easy.
+
+## Demo
+https://storageddd.github.io/vue-date-pills/
 
 ## Features
 
 - Month range selection
 - Year range selection
-- Mobile devices compatibility
+- Flexible date format
+- Mobile compatibility
 - Locale support
 - Ease CSS vars theming
+- Lightweight
 - SSR support
 - Included type definitions
 
@@ -59,3 +67,6 @@ app.component('VueDatePills', VueDatePills);
     }
 </script>
 ```
+
+### Dependencies
+

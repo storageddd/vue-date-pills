@@ -3,8 +3,6 @@ import { reactive } from 'vue';
 import dayjs from 'dayjs';
 import 'dayjs/locale/es';
 import DatePills from '../src/DatePills.vue';
-// import DatePills from '../dist/vue-date-pills.es';
-// import '../dist/style.css';
 
 const selectedDate01 = dayjs();
 const selectedDate01Format = 'YYYY-MM-DD';

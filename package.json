@@ -1,6 +1,6 @@
 {
   "name": "vue-date-pills",
-  "description": "Lightweight complete date pills solution for filtering data by date range based on Vue 3 and DayJS",
+  "description": "Lightweight complete date pills component for filtering data by date range based on Vue 3 and DayJS",
   "version": "1.0.0",
   "private": false,
   "license": "MIT",
@@ -32,6 +32,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --mode production",
+    "build:docs": "vite build --mode docs",
     "preview": "vite preview",
     "test:unit": "vitest",
     "test:e2e": "start-server-and-test preview http://localhost:4173 'cypress run --e2e'",
