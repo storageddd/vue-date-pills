@@ -12,11 +12,8 @@
 ![Screenshot](https://github.com/storageddd/vue-date-pills/raw/master/public/screenshot.png "Screenshot")
 
 ## Description
-Some mobile interfaces includes choice month intervals for grab related data. Also it based on some dates range.
+Some mobile interfaces includes choice month intervals for grab related data. Also it based on dates range.
 Vue data pills created for solve this issue and makes it easy.
-
-## Demo
-https://storageddd.github.io/vue-date-pills/
 
 ## Features
 
@@ -30,7 +27,11 @@ https://storageddd.github.io/vue-date-pills/
 - SSR support
 - Included type definitions
 
+## Demo
+https://storageddd.github.io/vue-date-pills/
+
 ## Install
+Note: package based and depends on Vue 3 and DayJS libraries and its excludes from build by vite. You must install in manually.
 
 ```shell
 yarn add vue-date-pills
@@ -59,14 +60,11 @@ app.component('VueDatePills', VueDatePills);
 
 ```vue
 <script>
-    import VueDatePills from 'vue-date-pills';
-    import 'vue-date-pills/dist/styles.css';
+  import VueDatePills from 'vue-date-pills';
+  import 'vue-date-pills/dist/styles.css';
     
-    export default {
-        components: { VueDatePills }
-    }
+  export default {
+    components: { VueDatePills }
+  }
 </script>
 ```
-
-### Dependencies
-
