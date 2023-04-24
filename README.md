@@ -111,7 +111,7 @@ const form = reactive({
 </script>
 
 <template>
-  <date-pills v-model="form.selectedDate" />
+  <vue-date-pills v-model="form.selectedDate" />
 </template>
 ```
 ### Localization
@@ -122,7 +122,7 @@ import 'dayjs/locale/es';
 </script>
 
 <template>
-  <date-pills v-model="form.selectedDate" locale="es" />
+  <vue-date-pills v-model="form.selectedDate" locale="es" />
 </template>
 ```
 
