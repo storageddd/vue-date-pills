@@ -69,5 +69,20 @@
     "vite": "^4.1.4",
     "vitest": "^0.29.1",
     "vue-tsc": "^1.2.0"
-  }
+  },
+  "keywords": [
+    "vue",
+    "vue 3",
+    "date",
+    "picker",
+    "pills",
+    "datepicker",
+    "date-picker",
+    "datepills",
+    "date-pills",
+    "monthpicker",
+    "year",
+    "month",
+    "library"
+  ]
 }
